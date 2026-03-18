@@ -28,7 +28,7 @@ import networkx as nx
 from gensim.models import Doc2Vec
 from gensim.models.doc2vec import TaggedDocument
 
-CSV_PATH = "/Users/4c/Desktop/GHQ/data/loto7hh_4580_k21.csv"
+CSV_PATH = "/data/loto7hh_4580_k21.csv"
 
 df = pd.read_csv(CSV_PATH)
 print()
@@ -234,7 +234,7 @@ def main():
     print()
     """
     Predikcija (Graph2Vec + kvantna regresija, deterministički, strukturno):
-    (8, 11, 22, 23, 26, 28, 33)
+    (8, 11, x, y, z, 28, 33)
 
     Score: 0.5104749608477633
     """
